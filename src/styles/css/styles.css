@@ -1,0 +1,374 @@
+
+/* line 67 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
+
+/* line 1 : /Volumes/Sites/personal/heyitscharles/node_modules/stylus/lib/functions/index.styl */
+
+/* line 297 : /Volumes/Sites/personal/heyitscharles/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+/* normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* line 12 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+html {
+  line-height: 1.15; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* line 25 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+body {
+  margin: 0;
+}
+
+/* line 33 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+/* line 47 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 60 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+figcaption,
+figure,
+main {
+/* 1 */
+  display: block;
+}
+
+/* line 70 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+figure {
+  margin: 1em 40px;
+}
+
+/* line 79 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/* line 90 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* line 103 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+a {
+  background-color: transparent; /* 1 */
+  -webkit-text-decoration-skip: objects; /* 2 */
+}
+
+/* line 113 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/* line 123 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/* line 132 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/* line 142 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* line 153 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+dfn {
+  font-style: italic;
+}
+
+/* line 161 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/* line 170 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+small {
+  font-size: 80%;
+}
+
+/* line 179 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 187 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 191 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+sup {
+  top: -0.5em;
+}
+
+/* line 202 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+audio,
+video {
+  display: inline-block;
+}
+
+/* line 211 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 220 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+img {
+  border-style: none;
+}
+
+/* line 228 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 240 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/* line 256 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+button,
+input {
+/* 1 */
+  overflow: visible;
+}
+
+/* line 266 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+button,
+select {
+/* 1 */
+  text-transform: none;
+}
+
+/* line 277 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+}
+
+/* line 288 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/* line 300 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/* line 311 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/* line 322 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/* line 336 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+progress {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/* line 345 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+textarea {
+  overflow: auto;
+}
+
+/* line 354 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/* line 364 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 374 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/* line 383 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 393 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* line 406 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+details,
+menu {
+  display: block;
+}
+
+/* line 415 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+summary {
+  display: list-item;
+}
+
+/* line 426 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+canvas {
+  display: inline-block;
+}
+
+/* line 434 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+template {
+  display: none;
+}
+
+/* line 445 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+[hidden] {
+  display: none;
+}
+
+/* line 447 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/normalize.styl */
+
+/* line 1 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/partials/var.styl */
+@font-face {
+  font-family: Avenir-Black;
+}
+@font-face {
+  font-family: Avenir-Heavy;
+}
+
+/* line 4 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
+/***
+* Particles JS
+***/
+
+/* line 7 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-color: #f7f7f7;
+  background-image: url("");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  z-index: -9999;
+  position: absolute;
+  top: 0;
+}
+
+/* line 20 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
+/***
+* Global
+***/
+
+/* line 24 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
+body {
+  background-color: #f7f7f7;
+  color: #464646;
+  font-family: Avenir-Heavy, Helvetica, sans-serif;
+}
+
+/* line 30 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
+h1 {
+  font-family: Avenir-Black, Helvetica, sans-serif;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+/* line 34 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
+h1 span {
+  color: #fa1717;
+}
+
+/* line 39 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
+p {
+  font-size: 24px;
+  margin: 5px 0;
+}
+
+/* line 44 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
+/**
+* Intro
+**/
+
+/* line 48 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
+.hero-block {
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+}
+
+/* line 54 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
+.hero-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 70%;
+  margin: auto;
+}
+
+/* line 61 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
+.hero-content p:last-of-type {
+  margin-top: 3%;
+}
+
+/* line 65 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */

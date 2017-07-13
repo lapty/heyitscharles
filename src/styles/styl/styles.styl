@@ -1,0 +1,67 @@
+@import "partials/normalize.styl";
+@import "partials/var.styl";
+
+/***
+* Particles JS
+***/
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-color: $bgGrey;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat no-repeat;
+  z-index: -9999;
+  position: absolute;
+  top: 0;
+}
+
+/***
+* Global
+***/
+
+body {
+  background-color: $bgGrey;
+  color $darkGrey;
+  font-family: $a-heavy;
+}
+
+h1 {
+  font-family: $a-black;
+  font-size: 32px;
+  letter-spacing: 1px;
+  span {
+    color: $red;
+  }
+}
+
+p {
+  font-size: 24px;
+  margin: 5px 0;
+}
+
+/**
+* Intro
+**/
+
+.hero-block {
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+}
+
+.hero-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 70%;
+  margin: auto;
+
+  p:last-of-type {
+    margin-top: 3%;
+  }
+
+  .phrases {
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "heyitscharles.com",
+  "version": "0.0.1",
+  "description": "Charles Nguyen portfolio static site",
+  "main": "grunt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "grunt": "~0.4.x",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-stylus": "*",
+    "grunt-contrib-connect": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lapty/heyitscharles.git"
+  },
+  "author": "charles nguyen",
+  "license": "none"
+}
