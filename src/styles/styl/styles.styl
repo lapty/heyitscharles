@@ -15,11 +15,40 @@
   z-index: -9999;
   position: absolute;
   top: 0;
+
+  &.moon {
+    background-color: #000;
+  }
+}
+
+/***
+* Animations
+***/
+
+@keyframes appear {
+  0%   { opacity: 0; top: 15px; }
+  10%  { opacity: 1; }
+  12%  { top: 0;     }
+  92%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes line-right {
+  0%   { width: 0; background-color: #ff9595; }
+  10%  { width: 0; }
+  100% { width: 100%; background-color: #ff6f6f; }
 }
 
 /***
 * Global
 ***/
+
+::selection {
+  background: #fcf880;
+}
+::-moz-selection {
+  background: #fcf880;
+}
 
 body {
   background-color: $bgGrey;
@@ -39,6 +68,18 @@ h1 {
 p {
   font-size: 24px;
   margin: 5px 0;
+}
+
+// night stuff
+body.night {
+  background-color: #000;
+  color: #e3e3e3;
+  transition: all 1s ease;
+
+  #particles-js {
+    background-color: #000;
+    transition: all 1s ease;
+  }
 }
 
 /**
@@ -63,5 +104,26 @@ p {
   }
 
   .phrases {
+    position: relative;
+    animation: appear 5.5s infinite ease-in-out;
+
+    &.anim:after {
+      content: '';
+      width: 100%;
+      height: 8px;
+      background-color: #ff6f6f;
+      display: block;
+      position: absolute;
+      bottom: 5px;
+      left: 0;
+      animation: line-right 5.5s infinite;
+      z-index: -2;
+    }
+
+  }
+
+  .dont-move {
+    font-size: 10px;
+    color: rgba(0,0,0,.1);
   }
 }
