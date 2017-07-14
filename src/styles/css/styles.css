@@ -1,5 +1,5 @@
 
-/* line 129 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
+/* line 130 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
 
 /* line 1 : /Volumes/Sites/personal/heyitscharles/node_modules/stylus/lib/functions/index.styl */
 
@@ -407,10 +407,11 @@ body.night #particles-js {
 /* line 106 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
 .hero-content .phrases {
   position: relative;
-  animation: appear 5.5s infinite ease-in-out;
+  opacity: 0;
+  animation: appear 5.5s infinite;
 }
 
-/* line 110 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
+/* line 111 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
 .hero-content .phrases.anim:after {
   content: '';
   width: 100%;
@@ -424,7 +425,7 @@ body.night #particles-js {
   z-index: -2;
 }
 
-/* line 125 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
+/* line 126 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
 .hero-content .dont-move {
   font-size: 10px;
   color: rgba(0,0,0,0.1);
@@ -440,18 +441,19 @@ body.night #particles-js {
   }
 
 /* line 30 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
-  12% {
+  15% {
+    top: 0;
     opacity: 1;
   }
 
 /* line 31 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
-  13% {
-    top: 0;
+  75% {
+    opacity: 1;
   }
 
 /* line 32 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
-  90% {
-    opacity: 1;
+  95% {
+    opacity: 0.9;
   }
 
 /* line 33 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
@@ -470,18 +472,19 @@ body.night #particles-js {
   }
 
 /* line 30 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
-  12% {
+  15% {
+    top: 0;
     opacity: 1;
   }
 
 /* line 31 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
-  13% {
-    top: 0;
+  75% {
+    opacity: 1;
   }
 
 /* line 32 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
-  90% {
-    opacity: 1;
+  95% {
+    opacity: 0.9;
   }
 
 /* line 33 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
@@ -500,18 +503,19 @@ body.night #particles-js {
   }
 
 /* line 30 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
-  12% {
+  15% {
+    top: 0;
     opacity: 1;
   }
 
 /* line 31 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
-  13% {
-    top: 0;
+  75% {
+    opacity: 1;
   }
 
 /* line 32 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
-  90% {
-    opacity: 1;
+  95% {
+    opacity: 0.9;
   }
 
 /* line 33 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
@@ -530,18 +534,19 @@ body.night #particles-js {
   }
 
 /* line 30 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
-  12% {
+  15% {
+    top: 0;
     opacity: 1;
   }
 
 /* line 31 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
-  13% {
-    top: 0;
+  75% {
+    opacity: 1;
   }
 
 /* line 32 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */
-  90% {
-    opacity: 1;
+  95% {
+    opacity: 0.9;
   }
 
 /* line 33 : /Volumes/Sites/personal/heyitscharles/src/styles/styl/styles.styl */

@@ -26,10 +26,10 @@
 ***/
 
 @keyframes appear {
-  0%   { opacity: 0; top: 15px; }
-  12%  { opacity: 1; }
-  13%  { top: 0;     }
-  90%  { opacity: 1; }
+  0%   { opacity: 0; top: 15px }
+  15%  { top: 0; opacity: 1}
+  75%  { opacity: 1}
+  95%  { opacity: .9}
   100% { opacity: 0; }
 }
 
@@ -105,7 +105,8 @@ body.night {
 
   .phrases {
     position: relative;
-    animation: appear 5.5s infinite ease-in-out;
+    opacity: 0;
+    animation: appear 5.5s infinite;
 
     &.anim:after {
       content: '';
