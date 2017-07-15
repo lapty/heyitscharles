@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
 
-  var phrases = ['waiting for the final Kingkiller Chronicles novel.', 'flipping through cookbooks.', 'waiting for the release of Mount and Blade 2.', 'reading spoilers on Wikipedia.'],
+  var phrases = ['waiting for the last Kingkiller Chronicle.', 'looking at food pics while hungry.', 'waiting for Mount and Blade 2.', 'reading spoilers on Wikipedia.'],
       counter = phrases.length - 1,
       arraylength = phrases.length - 1,
       previousPhrase = $('.phrases');
