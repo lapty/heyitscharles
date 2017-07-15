@@ -26,8 +26,11 @@
 ***/
 
 @keyframes appear {
-  0%   {  top: 15px }
+  0%   {  top: 15px; opacity: 0 }
   15%  { top: 0; }
+  18%  { opacity: 1; }
+  95%  { opacity: 1; }
+  100% { opacity: 0; }
 }
 
 @keyframes line-right {
@@ -101,6 +104,7 @@ body.night {
 
   .phrases {
     position: relative;
+    animation: appear 5.5s infinite;
 
     &.anim:after {
       content: '';
@@ -111,7 +115,7 @@ body.night {
       position: absolute;
       bottom: 5px;
       left: 0;
-      animation: line-right 5.5s infinite;
+      animation: line-right 5.5s infinite ease;
       z-index: -2;
     }
 
