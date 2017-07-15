@@ -53,7 +53,7 @@ jQuery(document).ready(function($) {
                     },
                     "move": {
                         "enable": true,
-                        "speed": 0.09,
+                        "speed": 0.15,
                         "direction": "left",
                         "random": true,
                         "straight": true,
