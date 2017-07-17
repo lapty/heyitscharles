@@ -1,19 +1,17 @@
 jQuery(document).ready(function($) {
 
-  var phrases = ['waiting for the last Kingkiller Chronicle.', 'looking at food pics while hungry.', 'waiting for Mount and Blade 2.', 'reading spoilers on Wikipedia.'],
-      counter = phrases.length - 1,
-      arraylength = phrases.length - 1,
-      previousPhrase = $('.phrases');
-
   var phraseSwap = function() {
-      if (counter === arraylength) {
+    var phrases = ['waiting for the last Kingkiller Chronicle.', 'looking at food pics while hungry.', 'waiting for Mount and Blade 2.', 'reading spoilers on Wikipedia.'],
+        counter = phrases.length - 1,
+        lastArrIndex = phrases.length - 1,
+        $el = $('.phrases');
+
+      if (counter === lastArrIndex) {
         counter = 0;
       } else {
         counter++;
       }
-
-      previousPhrase.html(phrases[counter]);
-
+      $el.html(phrases[counter]);
   };
 
   phraseSwap();

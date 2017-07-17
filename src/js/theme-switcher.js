@@ -8,7 +8,6 @@ jQuery(document).ready(function($) {
     themeSwitcher.prototype = {
         init : function() {
 
-            this.currentTheme = this.sunTheme;
             this.moonTheme = {
                 "particles": {
                     "number": {
