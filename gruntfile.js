@@ -14,7 +14,21 @@ module.exports = function(grunt) {
     },
 
     uglify: {
-      dist: {
+      dev: {
+        options: {
+          mangle: false,
+          beautify: true
+        },
+        files: {
+          'src/js/main.min.js': ['src/js/*.js', '!src/js/*.min.js'],
+          'src/js/vendor.min.js': ['src/js/vendor/*.js']
+        }
+      },
+      prod: {
+        options: {
+          mangle: true,
+          beautify: false
+        },
         files: {
           'src/js/main.min.js': ['src/js/*.js', '!src/js/*.min.js'],
           'src/js/vendor.min.js': ['src/js/vendor/*.js']
@@ -69,7 +83,7 @@ module.exports = function(grunt) {
       },
       js: {
         files: ['<%= jshint.files %>', '!src/js/*.min.js', '!src/js/vendor/*'],
-        tasks: ['jshint', 'uglify'],
+        tasks: ['jshint', 'uglify:dev'],
       },
       livereload: {
         files: ['src/styles/**/*.css'],
@@ -88,7 +102,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-connect');
 
   grunt.registerTask('default', ['connect', 'watch']);
-  grunt.registerTask('compile', ['stylus:dev','jshint', 'uglify']);
-  grunt.registerTask('production', ['stylus:prod','jshint', 'uglify']);
+  grunt.registerTask('compile', ['stylus:dev','jshint', 'uglify:dev']);
+  grunt.registerTask('production', ['stylus:prod','jshint', 'uglify:prod']);
 
 };
