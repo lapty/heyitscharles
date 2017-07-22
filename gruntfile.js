@@ -4,7 +4,7 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
 
     jshint: {
-      files: ['gruntfile.js', 'src/js/*.js', '!src/js/*.min.js', '!src/js/vendor/*.js'],
+      files: ['gruntfile.js', 'src/js/*.js', '!src/js/*.min.js'],
       options: {
         'esversion': 6,
         globals: {
@@ -20,8 +20,7 @@ module.exports = function(grunt) {
           beautify: true
         },
         files: {
-          'src/js/main.min.js': ['src/js/*.js', '!src/js/*.min.js'],
-          'src/js/vendor.min.js': ['src/js/vendor/*.js']
+          'src/js/main.min.js': ['src/js/*.js', '!src/js/*.min.js']
         }
       },
       prod: {
@@ -30,8 +29,7 @@ module.exports = function(grunt) {
           beautify: false
         },
         files: {
-          'src/js/main.min.js': ['src/js/*.js', '!src/js/*.min.js'],
-          'src/js/vendor.min.js': ['src/js/vendor/*.js']
+          'src/js/main.min.js': ['src/js/*.js', '!src/js/*.min.js']
         }
       }
     },
@@ -82,7 +80,7 @@ module.exports = function(grunt) {
         }
       },
       js: {
-        files: ['<%= jshint.files %>', '!src/js/*.min.js', '!src/js/vendor/*'],
+        files: ['<%= jshint.files %>', '!src/js/*.min.js'],
         tasks: ['jshint', 'uglify:dev'],
       },
       livereload: {
