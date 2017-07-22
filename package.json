@@ -9,11 +9,13 @@
   "dependencies": {
     "grunt": "~0.4.x",
     "grunt-contrib-concat": "*",
-    "grunt-contrib-uglify": "*",
+    "grunt-contrib-connect": "*",
     "grunt-contrib-jshint": "*",
-    "grunt-contrib-watch": "*",
     "grunt-contrib-stylus": "*",
-    "grunt-contrib-connect": "*"
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "jquery": "^3.2.1",
+    "particlesjs": "^2.0.2"
   },
   "repository": {
     "type": "git",
