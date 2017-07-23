@@ -15,7 +15,7 @@
     "grunt-contrib-uglify": "*",
     "grunt-contrib-watch": "*",
     "jquery": "^3.2.1",
-    "particlesjs": "^2.0.2"
+    "particles.js": "^2.0.0"
   },
   "repository": {
     "type": "git",
