@@ -10,4 +10,3 @@ jQuery(document).ready(function($) {
 
     setInterval(phraseSwap(phrases, $phrasesEl), 5500, phrases, $phrasesEl);
 });
-
