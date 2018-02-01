@@ -24,11 +24,11 @@
 ***/
 
 @keyframes appear {
-  0%   {  top: 15px; opacity: 0 }
-  15%  { top: 0; }
-  30%  { opacity: 1; }
-  80%  { opacity: 1; }
-  100% { opacity: 0; }
+  0% { top: 15px; opacity: 0 }
+  15% { top: 0 }
+  30% { opacity: 1  }
+  80% { opacity: 1  }
+  100% { opacity: 0  }
 }
 
 @keyframes line-right {
@@ -104,7 +104,7 @@ p {
 
   .phrases {
     position: relative;
-    animation: appear 5.5s infinite;
+    animation: appear 5500ms ease;
     display: inline-block;
 
     &.anim:after {
@@ -116,7 +116,7 @@ p {
       position: absolute;
       bottom: 0px;
       left: 0;
-      animation: line-right 5.5s infinite ease;
+      animation: line-right 5500ms ease;
       z-index: -2;
 
       @media $mobile {
