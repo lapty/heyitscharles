@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "grunt": "~0.4.x",
+    "grunt": "^1.0.4",
     "grunt-contrib-concat": "*",
     "grunt-contrib-connect": "^2.1.0",
     "grunt-contrib-jshint": "^2.1.0",
@@ -15,7 +15,12 @@
     "grunt-contrib-uglify": "^4.0.1",
     "grunt-contrib-watch": "^1.1.0",
     "jquery": "^3.4.1",
-    "particles.js": "^2.0.0"
+    "js-yaml": "^3.13.1",
+    "lodash": "^4.17.15",
+    "minimatch": "^3.0.4",
+    "particles.js": "^2.0.0",
+    "underscore": "^1.9.1",
+    "underscore.string": "^3.3.5"
   },
   "repository": {
     "type": "git",
