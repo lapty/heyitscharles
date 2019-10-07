@@ -1,6 +1,14 @@
 jQuery(document).ready(function($) {
 
-    var phrases = ['waiting for the last Kingkiller Chronicle.', 'looking at food pics while hungry.', 'waiting for Mount and Blade 2.', 'reading spoilers on Wikipedia.'],
+    var phrases = [
+        'waiting for the last Kingkiller Chronicle.', 
+        'looking at food pics while hungry.', 
+        'waiting for Mount and Blade 2.', 
+        'reading spoilers on Wikipedia.',
+        'watching Bon Appétit videos',
+        'not finishing any books I start'
+
+    ],
         $phrasesEl = $('.phrases.anim');
 
     function phraseSwap(phrases, $phrase) {
