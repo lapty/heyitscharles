@@ -1,12 +1,11 @@
 jQuery(document).ready(function($) {
 
     var phrases = [
-        'waiting for the last Kingkiller Chronicle.', 
-        'looking at food pics while hungry.', 
-        'waiting for Mount and Blade 2.', 
+        'waiting for the last Kingkiller Chronicle.',
+        'playing Mount and Blade 2.',
         'reading spoilers on Wikipedia.',
-        'watching Bon Appétit videos',
-        'not finishing any books I start'
+        'watching Bon Appétit Test Kitchen videos.',
+        'not finishing any books I start.'
 
     ],
         $phrasesEl = $('.phrases.anim');
